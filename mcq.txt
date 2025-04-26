@@ -1,0 +1,1400 @@
+1:-What is Laravel?
+a) A database
+b) A PHP Framework
+c) A JavaScript library
+d) An operating system
+Answer: b) A PHP Framework
+
+2:-Laravel is developed by:
+a) Rasmus Lerdorf
+b) Taylor Otwell
+c) Fabien Potencier
+d) John Resig
+Answer: b) Taylor Otwell
+
+3:-Which command is used to create a new Laravel project?
+a) laravel start
+b) laravel new project_name
+c) php artisan new
+d) php create laravel
+Answer: b) laravel new project_name
+
+4:-Which directory contains route definitions?
+a) /resources
+b) /config
+c) /routes
+d) /database
+Answer: c) /routes
+
+5:-Which command is used to run Laravel development server?
+a) php server
+b) php artisan serve
+c) php run
+d) php artisan start
+Answer: b) php artisan serve
+
+6-Which file contains the environment configuration in Laravel?
+a) app.php
+b) .env
+c) config.php
+d) environment.php
+Answer: b) .env
+
+7:-What is the default templating engine used by Laravel?
+a) Smarty
+b) Blade
+c) Twig
+d) Mustache
+Answer: b) Blade
+
+8:-In Laravel, middleware is used for:
+a) Template rendering
+b) Handling exceptions
+c) Filtering HTTP requests
+d) Compiling assets
+Answer: c) Filtering HTTP requests
+
+Which method is used to define a GET route in Laravel?
+a) Route::post()
+b) Route::put()
+c) Route::get()
+d) Route::delete()
+Answer: c) Route::get()
+
+Laravel uses which ORM for database interaction?
+a) Propel
+b) Doctrine
+c) Eloquent
+d) RedBean
+Answer: c) Eloquent
+
+What is the purpose of php artisan migrate?
+a) Move files to production
+b) Run database migrations
+c) Clear cache
+d) Start the server
+Answer: b) Run database migrations
+
+In Laravel, the web.php file is used for:
+a) API routes
+b) Web routes
+c) CLI commands
+d) Testing
+Answer: b) Web routes
+
+Which helper function is used to return a JSON response?
+a) json()
+b) return_json()
+c) response()->json()
+d) json_encode()
+Answer: c) response()->json()
+
+What does CSRF stand for in Laravel?
+a) Cross-Site Request Forgery
+b) Code Session Routing Form
+c) Client Server Route File
+d) Custom Site Response Function
+Answer: a) Cross-Site Request Forgery
+
+How to create a controller in Laravel?
+a) php artisan make:controller ControllerName
+b) php artisan new:controller ControllerName
+c) php artisan generate:controller ControllerName
+d) php make:controller ControllerName
+Answer: a) php artisan make:controller ControllerName
+
+Which file is used for database configuration in Laravel?
+a) database.php
+b) config.php
+c) config/database.php
+d) db_config.php
+Answer: c) config/database.php
+
+Which Laravel feature allows task scheduling?
+a) Events
+b) Jobs
+c) Scheduler
+d) Console Kernel
+Answer: d) Console Kernel
+
+In Laravel, what is the use of service providers?
+a) To store HTML templates
+b) To register bindings and services
+c) To define database schema
+d) To serve static assets
+Answer: b) To register bindings and services
+
+What is the use of .env file in Laravel?
+a) To configure database
+b) To define app environment variables
+c) To store sensitive credentials
+d) All of the above
+Answer: d) All of the above
+
+How to create a model in Laravel?
+a) php artisan create:model ModelName
+b) php make:model ModelName
+c) php artisan make:model ModelName
+d) php model:new ModelName
+Answer: c) php artisan make:model ModelName
+
+Where are Laravel migration files stored?
+a) /database/migrations
+b) /app/Migrations
+c) /config/migrations
+d) /resources/migrations
+Answer: a) /database/migrations
+
+What is the default port of Laravel’s development server?
+a) 3000
+b) 8000
+c) 8080
+d) 5000
+Answer: b) 8000
+
+Which method is used to insert a record in Eloquent?
+a) insert()
+b) save()
+c) add()
+d) create()
+Answer: b) save()
+
+Which method retrieves all records in Eloquent?
+a) findAll()
+b) all()
+c) getAll()
+d) fetchAll()
+Answer: b) all()
+
+What does php artisan route:list do?
+a) Shows all defined routes
+b) Creates new routes
+c) Deletes routes
+d) Refreshes route cache
+Answer: a) Shows all defined routes
+
+In Laravel, what is a Seeder used for?
+a) Storing assets
+b) Creating views
+c) Populating the database with sample data
+d) Routing API endpoints
+Answer: c) Populating the database with sample data
+
+Which Laravel command rolls back the last migration?
+a) php artisan migration:rollback
+b) php artisan rollback
+c) php artisan migrate:rollback
+d) php artisan db:rollback
+Answer: c) php artisan migrate:rollback
+
+Which Laravel command clears the application cache?
+a) php artisan cache:clear
+b) php artisan clear
+c) php artisan cache:flush
+d) php artisan clear:cache
+Answer: a) php artisan cache:clear
+
+What is the use of php artisan config:cache?
+a) Cache route files
+b) Cache views
+c) Cache config files
+d) Cache compiled classes
+Answer: c) Cache config files
+
+What is the naming convention for Laravel model class names?
+a) snake_case
+b) camelCase
+c) PascalCase
+d) kebab-case
+Answer: c) PascalCase
+
+Which folder contains Laravel middleware classes?
+a) /routes
+b) /app/Middleware
+c) /app/Http/Middleware
+d) /resources/middleware
+Answer: c) /app/Http/Middleware
+
+How to retrieve an old input value in Blade templates?
+a) old('field_name')
+b) input('field_name')
+c) get('field_name')
+d) request('field_name')
+Answer: a) old('field_name')
+
+Which method is used to define a resource controller route?
+a) Route::resource()
+b) Route::controller()
+c) Route::resourceController()
+d) Route::crud()
+Answer: a) Route::resource()
+
+What is the use of csrf_field() in Laravel forms?
+a) Adds hidden method field
+b) Prevents session hijacking
+c) Inserts a CSRF token
+d) Encrypts form data
+Answer: c) Inserts a CSRF token
+
+Which class handles HTTP requests in Laravel?
+a) Http\Request
+b) Illuminate\Http\Request
+c) Laravel\Request
+d) Route\Request
+Answer: b) Illuminate\Http\Request
+
+How to generate a key for Laravel application?
+a) php artisan key:generate
+b) php artisan gen:key
+c) php artisan generate:key
+d) php artisan make:key
+Answer: a) php artisan key:generate
+
+Which helper returns the current URL?
+a) route()
+b) current_url()
+c) url()->current()
+d) url()
+Answer: c) url()->current()
+
+What does dd() stand for in Laravel?
+a) Direct Debug
+b) Dump and Die
+c) Data Destroy
+d) Debug Dump
+Answer: b) Dump and Die
+
+Which artisan command creates a new middleware?
+a) php artisan middleware:make
+b) php artisan make:middleware
+c) php artisan new:middleware
+d) php artisan generate:middleware
+Answer: b) php artisan make:middleware
+
+Laravel’s Blade templating engine files use which extension?
+a) .php
+b) .blade.php
+c) .tpl
+d) .view.php
+Answer: b) .blade.php
+
+How can you redirect to a named route in Laravel?
+a) redirect()->name('route_name')
+b) redirect()->to('route_name')
+c) redirect()->route('route_name')
+d) route('redirect')
+Answer: c) redirect()->route('route_name')
+
+Which method is used to validate form input in Laravel?
+a) $request->validate()
+b) $request->check()
+c) Validator::run()
+d) Form::validate()
+Answer: a) $request->validate()
+
+Where are Laravel service providers registered?
+a) bootstrap/app.php
+b) routes/web.php
+c) config/app.php
+d) app/Providers/config.php
+Answer: c) config/app.php
+
+Which function is used to get the authenticated user?
+a) request()->user()
+b) auth()->user()
+c) Auth::user()
+d) All of the above
+Answer: d) All of the above
+
+Which command creates a migration file in Laravel?
+a) php artisan migration:create
+b) php artisan make:migration
+c) php artisan create:migration
+d) php artisan gen:migration
+Answer: b) php artisan make:migration
+
+In Laravel, what does nullable() in a migration mean?
+a) Column is optional
+b) Column must not be null
+c) Column is indexed
+d) Column is encrypted
+Answer: a) Column is optional
+
+Which directive is used in Blade to display a section’s content?
+a) @block
+b) @yield
+c) @show
+d) @section
+Answer: b) @yield
+
+What is the primary purpose of Laravel Sanctum?
+a) Authentication for APIs and SPAs
+b) Template rendering
+c) Session caching
+d) Queue handling
+Answer: a) Authentication for APIs and SPAs
+
+Which of the following is used for event broadcasting in Laravel?
+a) Laravel Echo
+b) Redis
+c) Pusher
+d) All of the above
+Answer: d) All of the above
+
+Which method is used in Eloquent to define a one-to-many relationship?
+a) hasOne()
+b) belongsTo()
+c) hasMany()
+d) hasManyToOne()
+Answer: c) hasMany()
+
+Which directory contains Laravel event and listener classes by default?
+a) /app/Events and /app/Listeners
+b) /resources/events
+c) /app/Handlers
+d) /bootstrap/events
+Answer: a) /app/Events and /app/Listeners
+
+In Laravel, what is the default session driver?
+a) file
+b) cookie
+c) database
+d) array
+Answer: a) file
+
+What does php artisan make:job do?
+a) Create a new controller
+b) Create a new queueable job class
+c) Create a new Blade view
+d) Schedule a task
+Answer: b) Create a new queueable job class
+
+Which artisan command is used to run scheduled tasks manually?
+a) php artisan schedule:run
+b) php artisan cron:run
+c) php artisan task:run
+d) php artisan run:schedule
+Answer: a) php artisan schedule:run
+
+Which command is used to clear compiled views in Laravel?
+a) php artisan view:clear
+b) php artisan clear:views
+c) php artisan view:flush
+d) php artisan flush:views
+Answer: a) php artisan view:clear
+
+Which artisan command clears route cache?
+a) php artisan route:flush
+b) php artisan route:clear
+c) php artisan cache:route
+d) php artisan clear:route
+Answer: b) php artisan route:clear
+
+Which of the following relationships is used to define a many-to-many relation in Laravel?
+a) hasMany()
+b) belongsToMany()
+c) hasOne()
+d) morphMany()
+Answer: b) belongsToMany()
+
+How do you access the value of a config variable in Laravel?
+a) config_get('key')
+b) get_config('key')
+c) config('key')
+d) Config::get('key')
+Answer: c) config('key')
+
+What is the result of using the compact() function in controllers?
+a) Compresses output
+b) Converts data to JSON
+c) Creates an array with variable names as keys
+d) Minifies CSS and JS
+Answer: c) Creates an array with variable names as keys
+
+What is the use of php artisan storage:link?
+a) Link database to storage
+b) Link storage to public folder
+c) Link S3 bucket
+d) Link .env to config
+Answer: b) Link storage to public folder
+
+Which method is used to paginate results in Laravel?
+a) paginate()
+b) split()
+c) paging()
+d) limit()
+Answer: a) paginate()
+
+In Blade, which directive is used to check for authentication?
+a) @auth
+b) @authenticated
+c) @check
+d) @loggedin
+Answer: a) @auth
+
+What does php artisan optimize do?
+a) Optimizes app speed
+b) Optimizes compiled files
+c) Clears cache
+d) Compresses images
+Answer: b) Optimizes compiled files
+
+Where do Laravel queued jobs get stored when using the "database" queue driver?
+a) jobs table
+b) queue_jobs table
+c) tasks table
+d) queued_tasks table
+Answer: a) jobs table
+
+Which of the following is a method for soft deleting in Eloquent?
+a) delete()
+b) forceDelete()
+c) destroy()
+d) SoftDelete()
+Answer: b) forceDelete()
+
+What does the with() method do in Eloquent?
+a) Adds pagination
+b) Eager loads relationships
+c) Soft deletes model
+d) Sorts results
+Answer: b) Eager loads relationships
+
+Which helper is used to generate URLs to named routes?
+a) path()
+b) link()
+c) route()
+d) url()
+Answer: c) route()
+
+What is the default hashing algorithm used by Laravel?
+a) MD5
+b) SHA-1
+c) Bcrypt
+d) Argon2
+Answer: c) Bcrypt
+
+Which of the following creates a controller with resource methods?
+a) php artisan make:controller TestController
+b) php artisan make:controller TestController --resource
+c) php artisan create:resource TestController
+d) php artisan controller:resource TestController
+Answer: b) php artisan make:controller TestController --resource
+
+What is Laravel Mix used for?
+a) Creating routes
+b) Compiling and bundling assets
+c) Managing jobs
+d) Handling sessions
+Answer: b) Compiling and bundling assets
+
+Which method is used in Laravel to define a one-to-one relationship?
+a) hasMany()
+b) belongsTo()
+c) hasOne()
+d) morphOne()
+Answer: c) hasOne()
+
+What is the use of php artisan tinker?
+a) Launches a Blade editor
+b) Runs Laravel in test mode
+c) Interacts with your Laravel application via REPL
+d) Generates test cases
+Answer: c) Interacts with your Laravel application via REPL
+
+Which of these is a default HTTP middleware in Laravel?
+a) EncryptCookies
+b) JsonParser
+c) ApiHeader
+d) AuthController
+Answer: a) EncryptCookies
+
+How to define a fallback route in Laravel?
+a) Route::default()
+b) Route::fallback()
+c) Route::catch()
+d) Route::wildcard()
+Answer: b) Route::fallback()
+
+What does the nullable rule mean in Laravel validation?
+a) Field is required
+b) Field should be null
+c) Field may be null
+d) Field cannot be blank
+Answer: c) Field may be null
+
+How do you protect Laravel routes from unauthorized access?
+a) Apply middleware 'auth'
+b) Use csrf token
+c) Use hashing
+d) Use route prefixes
+Answer: a) Apply middleware 'auth'
+
+Which facade provides access to the cache in Laravel?
+a) DB
+b) Log
+c) Cache
+d) Storage
+Answer: c) Cache
+
+How do you specify a route parameter in Laravel?
+a) {id}
+b) :id
+c) [id]
+d) <id>
+Answer: a) {id}
+
+Which Laravel command creates a new factory class?
+a) php artisan make:factory
+b) php artisan factory:make
+c) php artisan gen:factory
+d) php artisan factory:create
+Answer: a) php artisan make:factory
+
+Which Laravel feature allows defining conditions inside Blade templates?
+a) @if
+b) @for
+c) @switch
+d) All of the above
+Answer: d) All of the above
+
+What is the default database used by Laravel in the .env file?
+a) PostgreSQL
+b) SQLite
+c) MySQL
+d) SQL Server
+Answer: c) MySQL
+
+Which Laravel command is used to rollback the last migration operation?
+a) php artisan migrate:rollback
+b) php artisan rollback
+c) php artisan migrate:reverse
+d) php artisan migrate:undo
+Answer: a) php artisan migrate:rollback
+
+What does the remember method do in Laravel Cache?
+a) Deletes a cached value
+b) Updates a cached value
+c) Retrieves a cached value or stores it if not present
+d) Stores a value indefinitely
+Answer: c) Retrieves a cached value or stores it if not present
+
+What will php artisan route:list display?
+a) View templates
+b) All controller names
+c) List of all registered routes
+d) All service providers
+Answer: c) List of all registered routes
+
+What is CSRF protection used for in Laravel?
+a) Database encryption
+b) Preventing SQL injection
+c) Preventing cross-site request forgery
+d) Validating user sessions
+Answer: c) Preventing cross-site request forgery
+
+How do you define a named route in Laravel?
+a) Route::get('url', 'Controller@method')->name('route.name');
+b) Route::name('route.name')->get('url', 'Controller@method');
+c) Route::route('route.name', 'Controller@method');
+d) Route::url('url')->name('route.name');
+Answer: a) Route::get('url', 'Controller@method')->name('route.name');
+
+How do you enable debugging in Laravel?
+a) APP_DEBUG=false
+b) APP_DEBUG=true in .env
+c) Set DEBUG=true in routes
+d) php artisan debug:on
+Answer: b) APP_DEBUG=true in .env
+
+What is a Laravel Seeder used for?
+a) Creating middleware
+b) Generating random images
+c) Populating the database with test data
+d) Encrypting user data
+Answer: c) Populating the database with test data
+
+Which Laravel method is used to attach a role to a user in a many-to-many relationship?
+a) connect()
+b) attach()
+c) bind()
+d) relate()
+Answer: b) attach()
+
+Which file contains route definitions for web routes?
+a) routes/api.php
+b) routes/web.php
+c) routes/console.php
+d) routes/route.php
+Answer: b) routes/web.php
+
+Which artisan command shows all registered events and their listeners?
+a) php artisan event:list
+b) php artisan list:events
+c) php artisan show:events
+d) php artisan debug:events
+Answer: a) php artisan event:list
+
+Which Laravel component allows jobs to be delayed and handled asynchronously?
+a) Middleware
+b) Event
+c) Queue
+d) Seeder
+Answer: c) Queue
+
+Which driver is used by default for broadcasting events in Laravel?
+a) log
+b) redis
+c) pusher
+d) null
+Answer: d) null
+
+Which command would you use to clear the config cache?
+a) php artisan config:clear
+b) php artisan clear:config
+c) php artisan cache:flush
+d) php artisan config:flush
+Answer: a) php artisan config:clear
+
+How do you register middleware globally in Laravel?
+a) In routes/web.php
+b) In .env file
+c) In app/Http/Kernel.php under $middleware
+d) In config/app.php
+Answer: c) In app/Http/Kernel.php under $middleware
+
+What is the use of php artisan vendor:publish?
+a) Run migrations
+b) Publish package assets and config files
+c) Create vendor packages
+d) Update composer packages
+Answer: b) Publish package assets and config files
+
+What is the default port Laravel development server runs on?
+a) 3000
+b) 8080
+c) 8000
+d) 9000
+Answer: c) 8000
+
+How can you access old input data in Laravel Blade?
+a) old('input_name')
+b) request('input_name')
+c) input('input_name')
+d) back('input_name')
+Answer: a) old('input_name')
+
+Which Laravel feature handles background jobs?
+a) Events
+b) Queue
+c) Tasks
+d) Schedule
+Answer: b) Queue
+
+Which of the following is NOT a Laravel Facade?
+a) Route
+b) Auth
+c) HTML
+d) Cache
+Answer: c) HTML
+ 
+Which of the following can be used to schedule tasks in Laravel?
+a) TaskRunner
+b) TaskScheduler
+c) Scheduler
+d) Laravel Cron
+Answer: c) Scheduler
+
+Where do you define Laravel task schedules?
+a) routes/web.php
+b) app/Http/Kernel.php
+c) app/Console/Kernel.php
+d) config/schedule.php
+Answer: c) app/Console/Kernel.php
+
+Which command lists all scheduled tasks in Laravel?
+a) php artisan schedule:list
+b) php artisan task:list
+c) php artisan schedule:run
+d) Laravel has no such command
+Answer: d) Laravel has no such command
+
+Which Laravel command runs scheduled tasks?
+a) php artisan schedule:run
+b) php artisan cron:run
+c) php artisan task:execute
+d) php artisan schedule:execute
+Answer: a) php artisan schedule:run
+
+What does the dispatch() function do in Laravel?
+a) Sends a mail
+b) Logs a message
+c) Dispatches a job to the queue
+d) Initiates a migration
+Answer: c) Dispatches a job to the queue
+
+Which driver is used to store sessions in Laravel by default?
+a) redis
+b) database
+c) array
+d) file
+Answer: d) file
+
+How can you group routes under a middleware in Laravel?
+a) Route::group([...], function() { });
+b) Route::middleware([...], function() { });
+c) Route::with([...], function() { });
+d) Route::secure([...], function() { });
+Answer: a) Route::group([...], function() { });
+
+What is the purpose of the Service Container in Laravel?
+a) Handle routing
+b) Manage session
+c) Manage class dependencies and perform dependency injection
+d) Manage caching
+Answer: c) Manage class dependencies and perform dependency injection
+
+What is Service Provider in Laravel used for?
+a) Register services in the container
+b) Store user information
+c) Handle exceptions
+d) Manage file uploads
+Answer: a) Register services in the container
+
+Which file contains registered service providers in Laravel?
+a) routes/web.php
+b) app/Providers/AppServiceProvider.php
+c) config/app.php
+d) bootstrap/app.php
+Answer: c) config/app.php
+
+What command is used to install Laravel UI scaffolding?
+a) composer require laravel/ui
+b) composer install ui
+c) php artisan ui:install
+d) composer require laravel/scaffold
+Answer: a) composer require laravel/ui
+
+What is the syntax to generate a middleware using Artisan?
+a) php artisan make:middleware MiddlewareName
+b) php artisan middleware:create MiddlewareName
+c) php artisan middleware:make MiddlewareName
+d) php artisan create:middleware MiddlewareName
+Answer: a) php artisan make:middleware MiddlewareName
+
+What is the purpose of @csrf in Blade templates?
+a) Encrypts data
+b) Protects against CSRF attacks
+c) Authenticates user
+d) Validates forms
+Answer: b) Protects against CSRF attacks
+
+What is the output of {{ $var ?? 'default' }} in Blade?
+a) Always default
+b) Null
+c) $var if set, otherwise 'default'
+d) Error
+Answer: c) $var if set, otherwise 'default'
+
+Which method is used to define an inverse one-to-many relationship in Laravel?
+a) hasMany()
+b) belongsTo()
+c) hasOne()
+d) belongsToMany()
+Answer: b) belongsTo()
+
+How can you use raw SQL queries in Laravel?
+a) DB::raw()
+b) DB::execute()
+c) DB::run()
+d) DB::sql()
+Answer: a) DB::raw()
+
+Where are Laravel event listeners registered?
+a) app/Providers/EventServiceProvider.php
+b) routes/web.php
+c) config/app.php
+d) app/Console/Kernel.php
+Answer: a) app/Providers/EventServiceProvider.php
+
+Which helper method retrieves a value from the session?
+a) get_session()
+b) session()
+c) request()
+d) retrieve()
+Answer: b) session()
+
+What does php artisan down do?
+a) Shuts down the server
+b) Puts the app into maintenance mode
+c) Deletes the project
+d) Logs out the user
+Answer: b) Puts the app into maintenance mode
+
+What will php artisan up do?
+a) Bring app back from maintenance mode
+b) Start Laravel scheduler
+c) Upload files
+d) Open Laravel log
+Answer: a) Bring app back from maintenance mode
+
+ 
+Which method is used to validate form data in Laravel?
+a) validateInput()
+b) validate()
+c) inputCheck()
+d) formValidate()
+Answer: b) validate()
+
+What is the default hashing algorithm used by Laravel?
+a) SHA-1
+b) SHA-256
+c) Bcrypt
+d) MD5
+Answer: c) Bcrypt
+
+Which method is used to define a one-to-one relationship in Laravel?
+a) hasOne()
+b) belongsTo()
+c) hasMany()
+d) belongsToMany()
+Answer: a) hasOne()
+
+Which command is used to create a new Laravel project using Composer?
+a) composer new laravel project-name
+b) laravel new project-name
+c) composer create-project laravel/laravel project-name
+d) php artisan make:project
+Answer: c) composer create-project laravel/laravel project-name
+
+Where is the .env file used in Laravel?
+a) To configure database settings only
+b) For defining global helper functions
+c) For environment configuration like DB, APP settings
+d) To store route definitions
+Answer: c) For environment configuration like DB, APP settings
+
+Which of the following is used to return JSON responses in Laravel?
+a) json_encode()
+b) Response::make()
+c) response()->json()
+d) json_response()
+Answer: c) response()->json()
+
+How can you enable route caching in Laravel?
+a) php artisan route:enable
+b) php artisan optimize:route
+c) php artisan route:cache
+d) php artisan cache:route
+Answer: c) php artisan route:cache
+
+What will php artisan migrate:fresh do?
+a) Run all pending migrations
+b) Drop all tables and re-run all migrations
+c) Revert the last migration
+d) Show current migrations
+Answer: b) Drop all tables and re-run all migrations
+
+Which helper function can be used to redirect in Laravel?
+a) redirect_to()
+b) go_to()
+c) redirect()
+d) back_to()
+Answer: c) redirect()
+
+Where do you define custom helper functions in Laravel?
+a) routes/web.php
+b) app/Helpers.php and load in composer.json
+c) app/Providers/EventServiceProvider.php
+d) resources/views/helpers.blade.php
+Answer: b) app/Helpers.php and load in composer.json
+
+How can you get the current route name in a controller or view?
+a) Route::currentRoute()
+b) Route::name()
+c) Route::getName()
+d) Route::currentRouteName()
+Answer: d) Route::currentRouteName()
+
+Which blade directive is used to extend a layout?
+a) @extends
+b) @layout
+c) @section
+d) @parent
+Answer: a) @extends
+
+What does @yield('content') do in Blade?
+a) Repeats content
+b) Creates a content section
+c) Renders the section named 'content'
+d) Extends the layout
+Answer: c) Renders the section named 'content'
+
+How do you create a symbolic link for storage in Laravel?
+a) php artisan link:storage
+b) php artisan storage:link
+c) php artisan make:link
+d) php artisan file:storage
+Answer: b) php artisan storage:link
+
+What is the default session lifetime in Laravel?
+a) 30 minutes
+b) 120 minutes
+c) 60 minutes
+d) 24 hours
+Answer: b) 120 minutes
+
+What is the purpose of php artisan config:cache?
+a) Cache all routes
+b) Clear all configuration
+c) Cache the configuration values for performance
+d) Create config files
+Answer: c) Cache the configuration values for performance
+
+How do you create a custom artisan command in Laravel?
+a) php artisan make:custom
+b) php artisan create:command
+c) php artisan make:command
+d) php artisan artisan:new
+Answer: c) php artisan make:command
+
+How do you define a fallback route in Laravel?
+a) Route::fallback(function () {...});
+b) Route::default(function () {...});
+c) Route::any(function () {...});
+d) Route::onError(function () {...});
+Answer: a) Route::fallback(function () {...});
+
+Which file stores custom artisan commands?
+a) app/Console/Commands/
+b) resources/console/
+c) routes/console.php
+d) config/commands.php
+Answer: a) app/Console/Commands/
+
+What is php artisan inspire used for?
+a) Shows Laravel documentation
+b) Prints a random inspirational quote
+c) Generates random code
+d) Runs queue jobs
+Answer: b) Prints a random inspirational quote
+ 
+Which directive is used in Blade to include a sub-view?
+a) @include
+b) @import
+c) @subview
+d) @render
+Answer: a) @include
+
+Which method is used to soft delete a model in Laravel?
+a) remove()
+b) deleteSoft()
+c) softDelete()
+d) delete()
+Answer: d) delete() (when SoftDeletes trait is used)
+
+How to restore a soft-deleted model in Laravel?
+a) restore()
+b) recover()
+c) undelete()
+d) rollback()
+Answer: a) restore()
+
+Which trait must be used in a model for soft deletes?
+a) SoftDeletes
+b) Deletable
+c) HasSoftDeletes
+d) DeleteHandler
+Answer: a) SoftDeletes
+
+Which method will retrieve soft-deleted records only?
+a) onlyDeleted()
+b) withTrashed()
+c) onlyTrashed()
+d) getDeleted()
+Answer: c) onlyTrashed()
+
+What does withTrashed() do?
+a) Restores deleted records
+b) Retrieves only soft-deleted records
+c) Retrieves all records including soft-deleted
+d) Deletes a record permanently
+Answer: c) Retrieves all records including soft-deleted
+
+How do you permanently delete a soft-deleted record?
+a) delete()
+b) destroy()
+c) forceDelete()
+d) hardDelete()
+Answer: c) forceDelete()
+
+What will Auth::check() return?
+a) True if a user is authenticated
+b) The current user
+c) The user’s token
+d) The authentication guard
+Answer: a) True if a user is authenticated
+
+What is the command to publish vendor assets in Laravel?
+a) php artisan vendor:copy
+b) php artisan publish
+c) php artisan vendor:publish
+d) php artisan vendor:install
+Answer: c) php artisan vendor:publish
+
+Where can Laravel guards be configured?
+a) routes/web.php
+b) config/auth.php
+c) app/Providers/AuthServiceProvider.php
+d) config/session.php
+Answer: b) config/auth.php
+
+Which command can be used to cache compiled views in Laravel?
+a) php artisan view:cache
+b) php artisan cache:views
+c) php artisan view:compile
+d) php artisan compile:views
+Answer: a) php artisan view:cache
+
+Which Artisan command clears compiled view files?
+a) php artisan view:flush
+b) php artisan cache:clear
+c) php artisan view:clear
+d) php artisan clear:view
+Answer: c) php artisan view:clear
+
+What does the abort(404) helper do?
+a) Shows a 404 error page
+b) Logs a 404 error
+c) Redirects to the homepage
+d) Restarts the application
+Answer: a) Shows a 404 error page
+
+Which helper is used to retrieve old input data in a form?
+a) old_input()
+b) request()->old()
+c) old()
+d) previous()
+Answer: c) old()
+
+What is the default locale of a Laravel application?
+a) fr
+b) en
+c) us
+d) en_US
+Answer: b) en
+
+What is used to define route prefixes in Laravel?
+a) Route::prefix()
+b) Route::addPrefix()
+c) Route::group() with prefix
+d) Both a and c
+Answer: d) Both a and c
+
+How can you set global middleware in Laravel?
+a) routes/web.php
+b) app/Http/Middleware/
+c) $middleware array in app/Http/Kernel.php
+d) config/middleware.php
+Answer: c) $middleware array in app/Http/Kernel.php
+
+What does csrf_token() return?
+a) Null
+b) User session
+c) CSRF token string
+d) Encrypted password
+Answer: c) CSRF token string
+
+How do you retrieve environment variables in Laravel?
+a) env()
+b) config()
+c) getEnv()
+d) $_ENV
+Answer: a) env()
+
+Which command creates an event in Laravel?
+a) php artisan make:event EventName
+b) php artisan event:create EventName
+c) php artisan new:event EventName
+d) php artisan generate:event EventName
+Answer: a) php artisan make:event EventName
+
+How do you register a new route middleware in Laravel?
+a) In app/Http/Middleware/Kernel.php
+b) In routes/web.php
+c) In app/Providers/RouteServiceProvider.php
+d) In config/middleware.php
+Answer: a) In app/Http/Middleware/Kernel.php
+
+Which function is used to check if a route is a named route?
+a) isNamed()
+b) hasName()
+c) routeName()
+d) named()
+Answer: b) hasName()
+
+What is the purpose of Route::resource()?
+a) Defines basic RESTful routes for a resource controller
+b) Registers custom routes for a controller
+c) Creates routes dynamically for all models
+d) Caches the resource routes
+Answer: a) Defines basic RESTful routes for a resource controller
+
+Which of the following is used to generate URLs to named routes?
+a) route()
+b) url()
+c) link()
+d) path()
+Answer: a) route()
+
+Which of the following is true for Laravel’s env() function?
+a) It can only be used in config files
+b) It cannot be cached
+c) It retrieves environment variables from the .env file
+d) It generates random variables
+Answer: c) It retrieves environment variables from the .env file
+
+How do you validate the maximum length of a string in a Laravel form request?
+a) max:255
+b) length:255
+c) string:255
+d) maxLength:255
+Answer: a) max:255
+
+How do you protect routes from unauthorized users in Laravel?
+a) By using auth middleware
+b) By using guest middleware
+c) By setting a permission flag on the route
+d) By using admin middleware
+Answer: a) By using auth middleware
+
+Which command is used to view the list of registered routes in Laravel?
+a) php artisan route:list
+b) php artisan show:routes
+c) php artisan routes
+d) php artisan list:routes
+Answer: a) php artisan route:list
+
+Which method is used to define a one-to-many inverse relationship in Laravel?
+a) hasOne()
+b) belongsTo()
+c) hasMany()
+d) belongsToMany()
+Answer: b) belongsTo()
+
+Which of the following is used to redirect back to the previous page in Laravel?
+a) back()
+b) redirect()->back()
+c) return()
+d) goBack()
+Answer: b) redirect()->back()
+
+How can you generate a new controller in Laravel?
+a) php artisan make:controller ControllerName
+b) php artisan controller:create ControllerName
+c) php artisan new:controller ControllerName
+d) php artisan generate:controller ControllerName
+Answer: a) php artisan make:controller ControllerName
+
+Which of the following is used to make a controller resourceful in Laravel?
+a) php artisan make:controller --resource
+b) php artisan controller:resource
+c) php artisan make:resourcecontroller
+d) php artisan controller --resource
+Answer: a) php artisan make:controller --resource
+
+How do you define a route that listens for POST requests only?
+a) Route::post()
+b) Route::method('post')
+c) Route::setMethod('post')
+d) Route::method('POST')
+Answer: a) Route::post()
+
+Which method is used to get all records of a model in Laravel?
+a) get()
+b) all()
+c) retrieve()
+d) list()
+Answer: b) all()
+
+What is the purpose of php artisan serve?
+a) Runs a web server to serve the application
+b) Starts the queue worker
+c) Executes database migrations
+d) Clears cache and config
+Answer: a) Runs a web server to serve the application
+
+Which Blade directive is used to loop through an array?
+a) @foreach
+b) @loop
+c) @for
+d) @each
+Answer: a) @foreach
+
+How do you access query parameters in Laravel?
+a) request()->get()
+b) request()->query()
+c) request()->param()
+d) request()->input()
+Answer: b) request()->query()
+
+Which method is used to generate a signed URL for a route in Laravel?
+a) route()
+b) signedRoute()
+c) url()
+d) signedUrl()
+Answer: b) signedRoute()
+
+Which Artisan command is used to clear application cache in Laravel?
+a) php artisan cache:clear
+b) php artisan app:clear
+c) php artisan cache:flush
+d) php artisan clear:cache
+Answer: a) php artisan cache:clear
+
+How do you change the default language in Laravel?
+a) In the app/Config.php file
+b) In the .env file
+c) In the config/app.php file
+d) By using the language() function
+Answer: c) In the config/app.php file
+ 
+Which method is used to get the value of an environment variable in Laravel?
+a) env()
+b) config()
+c) getenv()
+d) getEnv()
+Answer: a) env()
+
+How do you create a migration file in Laravel?
+a) php artisan make:migration MigrationName
+b) php artisan create:migration MigrationName
+c) php artisan new:migration MigrationName
+d) php artisan generate:migration MigrationName
+Answer: a) php artisan make:migration MigrationName
+
+Which method is used to add a column to an existing table in Laravel migration?
+a) addColumn()
+b) createColumn()
+c) table()
+d) add()
+Answer: c) table()
+
+How can you roll back the last migration in Laravel?
+a) php artisan migrate:rollback
+b) php artisan migrate:reset
+c) php artisan migrate:undo
+d) php artisan migrate:revert
+Answer: a) php artisan migrate:rollback
+
+How do you check the current version of the migration?
+a) php artisan migration:status
+b) php artisan migrate:status
+c) php artisan check:migration
+d) php artisan migrate:version
+Answer: b) php artisan migrate:status
+
+Which method is used to update a record in a model in Laravel?
+a) update()
+b) set()
+c) change()
+d) modify()
+Answer: a) update()
+
+How do you define a model factory in Laravel?
+a) php artisan make:factory
+b) php artisan factory:create
+c) php artisan make:model-factory
+d) php artisan create:factory
+Answer: a) php artisan make:factory
+
+Which of the following is used to seed the database in Laravel?
+a) php artisan db:seed
+b) php artisan seed:db
+c) php artisan seed
+d) php artisan database:seed
+Answer: a) php artisan db:seed
+
+Which file is used to define validation rules in Laravel?
+a) routes/web.php
+b) app/Http/Controllers/Validation.php
+c) resources/lang/validation.php
+d) app/Http/Requests/Request.php
+Answer: d) app/Http/Requests/Request.php
+
+How can you set a route to accept both GET and POST requests in Laravel?
+a) Route::match()
+b) Route::both()
+c) Route::any()
+d) Route::all()
+Answer: a) Route::match()
+
+Which method is used to add a new record to the database in Laravel?
+a) create()
+b) insert()
+c) save()
+d) add()
+Answer: a) create()
+
+Which method is used to create a many-to-many relationship in Laravel?
+a) belongsTo()
+b) hasMany()
+c) hasManyThrough()
+d) belongsToMany()
+Answer: d) belongsToMany()
+
+How can you validate a unique field in Laravel?
+a) unique_field:table
+b) unique:table,column
+c) validate_unique()
+d) unique()
+Answer: b) unique:table,column
+
+How can you make a route available only for authenticated users in Laravel?
+a) auth:middleware()
+b) Route::middleware('auth')
+c) auth()
+d) Route::auth()
+Answer: b) Route::middleware('auth')
+
+Which of the following is the correct syntax for using a route group in Laravel?
+a) Route::group(['prefix' => 'admin'], function() {...});
+b) Route::group('admin', function() {...});
+c) Route::addGroup(['admin' => true], function() {...});
+d) Route::createGroup(['admin' => true], function() {...});
+Answer: a) Route::group(['prefix' => 'admin'], function() {...});
+
+How do you enable Laravel’s debugging features?
+a) Set APP_DEBUG=true in .env file
+b) Set debug=true in config/app.php
+c) Enable in config/debug.php
+d) Use php artisan debug:start
+Answer: a) Set APP_DEBUG=true in .env file
+
+Which of the following is used to generate a new policy in Laravel?
+a) php artisan make:policy PolicyName
+b) php artisan create:policy PolicyName
+c) php artisan new:policy PolicyName
+d) php artisan policy:create PolicyName
+Answer: a) php artisan make:policy PolicyName
+
+Which method is used to store a file in the Laravel filesystem?
+a) storeFile()
+b) save()
+c) put()
+d) store()
+Answer: d) store()
+
+How do you use middleware for specific routes in Laravel?
+a) Route::middleware('middleware_name')->group()
+b) Route::middleware()->route()
+c) Route::use('middleware_name')
+d) Route::addMiddleware('middleware_name')
+Answer: a) Route::middleware('middleware_name')->group()
+
+How do you run a queue job immediately in Laravel?
+a) php artisan queue:run
+b) php artisan queue:work
+c) php artisan queue:start
+d) php artisan queue:process
+Answer: b) php artisan queue:work
